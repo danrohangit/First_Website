@@ -5,7 +5,7 @@ This is my personal portfolio website with the aim to promote myself. It will in
 ## Design Process
 The website's main audience are for those interested in possibly hiring me or those looking for business opportunities.
 
-[Wireframe URL](https://drive.google.com/file/d/1YynGZQjJUozLNcu-fbPPk8wTRc7AN9LN/view?usp=sharing)
+[Wireframe URL](https://drive.google.com/file/d/1uEF2XcZFVHpX2sEZ-SaxtHHhSG84CX8B/view?usp=sharing)
 
 ## Technologies Used
 
