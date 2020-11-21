@@ -319,6 +319,58 @@
 
 }
 
+/* Fixed input and textbox size at small width */
+@media screen and (max-width: 400px)
+{
+  .input_name{
+    width: auto;
+    height: 35px;
+    font-size:20px;
+    text-align:center;
+  }
+  
+  .input_mail{
+    width: auto;
+    height: 35px;
+    font-size:20px;
+    text-align:center;
+  }
+  
+  .input_msg{
+    width: auto;
+    height: 500px;
+    font-size:20px;
+    text-align:center;
+  }
+}
+
+@media screen and (max-width: 200px)
+{
+  .input_name{
+    width: 100px;
+    height: 35px;
+    font-size:20px;
+    text-align:center;
+  }
+  
+  .input_mail{
+    width: 100px;
+    height: 35px;
+    font-size:20px;
+    text-align:center;
+  }
+  
+  .input_msg{
+    width: 100px;
+    height: 500px;
+    font-size:20px;
+    text-align:center;
+  }
+}
+
+/* End of fix for lower width */
+
+
 /* End of media css */
 
 /* button styling */
