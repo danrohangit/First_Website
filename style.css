@@ -1,3 +1,4 @@
+/* sets default parameters for website, fixes margin */
 *{
   font-family: 'Times New Roman', Times, serif;
   margin: 0;
@@ -5,17 +6,20 @@
   box-sizing: border-box;
 }
 
+/* top flex, space-between for proper positioning*/
 .top{
   display:flex;
   font-size: 200%;
   justify-content: space-between;
 }
 
+/* proper adjust of margins for logo*/
 .top img{
   margin-top: 8%;
   margin-left: 4%;
 }
 
+/* same flexbox as .top, sets direction of content to row */
 .quick_nav{
   display: flex;
   flex-direction:row;
@@ -29,7 +33,9 @@
   color:black;
   margin-right:50px;
 }
+/* End of header style*/
 
+/* First section in webpage. CSS styles from week4 split*/
 .about_me{
   background:#5D6D7E;
   display:flex;
@@ -51,6 +57,10 @@
   height: 100%;
 }
 
+/* End of introduction section */
+
+/* Artwork section, used CSS and HTML Tutorials for guidance */
+
 .art{
   display: flex;
   flex-wrap: wrap;
@@ -67,6 +77,7 @@
   color: white;
 }
 
+/* 25% for four "Columns" */
 .art_column{
   flex: 25%;
   max-width: 25%;
@@ -78,6 +89,10 @@
   vertical-align: middle;
   width: 100%;
 }
+
+/* End of art section */
+
+/* Project section, borrowed art flexbox */
 
 .project{
   display: flex;
@@ -103,6 +118,7 @@
   text-align: center;
 }
 
+/* Extra top space for text */
 .project_column h2{
   margin-top:2%;
 }
@@ -113,6 +129,10 @@
   vertical-align: middle;
   width: 100%;
 }
+
+/* End of project section */
+
+/* Contact Section, used what i learned from using flexbox */
 
 .contact_header{
   background-color: white;
@@ -157,7 +177,13 @@
   box-sizing: border-box;
 }
 
+/* End of Contact Section */
+
+/* Start of media css style */
+/* Most are just codes that are half of the original */
+
 @media screen and (max-width: 800px) {
+  /* 50% for two "Columns" */
   .art_column {
     flex: 50%;
     max-width: 50%;
@@ -172,6 +198,7 @@
 
 @media screen and (max-width: 656px)
 {
+  /* Start of header media css */
 
   .top{
   font-size: 100%;
@@ -195,6 +222,11 @@
     margin-top: 15px;
     margin-bottom: 15px;
   }
+
+  /* End of header media css */
+
+  /* Introduction section media css */
+
   .about_me{
   justify-content: center;
   display:flex;
@@ -213,6 +245,10 @@
   height: 50%;
   }
 
+  /* End of introduction section media css */
+
+  /* Art section media css */
+
  .art_header{
   font-size: 100%;
   justify-content: center;
@@ -220,10 +256,15 @@
   text-align: center;
   }
 
+    /* 100% for one "Column" */
  .art_column{
   flex: 100%;
   max-width: 100%;
   }
+
+  /* End of art section media css */
+
+  /* Project section media css */
 
  .project_header{
   background-color: purple;
@@ -239,6 +280,10 @@
   max-width: 100%;
   font-size: 70%;
   }
+
+  /* End of project section media css */
+
+  /* Contact section media css */
 
   .contact_header{
     background-color: white;
@@ -270,7 +315,13 @@
     text-align:center;
   }
 
+  /* End of contact section media css */
+
 }
+
+/* End of media css */
+
+/* button styling */
 
 .button {
   background-color: #4CAF50; /* Green */
@@ -283,3 +334,5 @@
   font-size: 16px;
   cursor:pointer;
 }
+
+/* End of button styling and css codes */
