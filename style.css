@@ -126,16 +126,25 @@
 .input_name{
   width: 500px;
   height: 50px;
+  font-size:30px;
+  text-align:center;
+  box-sizing: border-box;
 }
 
 .input_mail{
   width: 500px;
   height: 50px;
+  font-size:30px;
+  text-align:center;
+  box-sizing: border-box;
 }
 
 .input_msg{
   width: 500px;
   height: 500px;
+  font-size:30px;
+  text-align:center;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 800px) {
@@ -219,16 +228,22 @@
   .input_name{
     width: 400px;
     height: 35px;
+    font-size:20px;
+    text-align:center;
   }
   
   .input_mail{
     width: 400px;
     height: 35px;
+    font-size:20px;
+    text-align:center;
   }
   
   .input_msg{
     width: 400px;
     height: 500px;
+    font-size:20px;
+    text-align:center;
   }
 
 }
