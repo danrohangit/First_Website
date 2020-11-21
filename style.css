@@ -15,6 +15,11 @@
   margin-top: 4%;
 }
 
+.top img{
+  margin-top: 8%;
+  margin-left: 4%;
+}
+
 .about_me{
   background:#5D6D7E;
   display:flex;
@@ -25,6 +30,7 @@
   text-align: center;
   color: white;
 }
+
 .split{
   padding: 2%;
   align-items: center;
@@ -57,7 +63,6 @@
   padding: 0 4px;
 }
 
-
 .art_column img{
   margin-bottom: 8px;
   vertical-align: middle;
@@ -88,11 +93,49 @@
   text-align: center;
 }
 
+.project_column h2{
+  margin-top:2%;
+}
+
 .project_column img{
   margin-bottom: 8px;
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+}
+
+.contact_header{
+  background-color: white;
+  font-size: 200%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+
+.contact{
+  display:flex;
+  font-size: 200%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background:#5D6D7E;
+  color:white;
+}
+
+.input_name{
+  width: 500px;
+  height: 50px;
+}
+
+.input_mail{
+  width: 500px;
+  height: 50px;
+}
+
+.input_msg{
+  width: 500px;
+  height: 500px;
 }
 
 @media screen and (max-width: 800px) {
@@ -150,7 +193,7 @@
   }
 
  .project_header{
-  background-color: black;
+  background-color: purple;
   font-size: 100%;
   justify-content: center;
   align-items: center;
@@ -164,6 +207,29 @@
   font-size: 70%;
   }
 
+  .contact_header{
+    background-color: white;
+    font-size: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+  }
+
+  .input_name{
+    width: 400px;
+    height: 35px;
+  }
+  
+  .input_mail{
+    width: 400px;
+    height: 35px;
+  }
+  
+  .input_msg{
+    width: 400px;
+    height: 500px;
+  }
 
 }
 
